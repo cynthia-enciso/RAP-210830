@@ -6,7 +6,7 @@ Once you've navigated to the website, you should see the following:
 
 ![Postgres Download Home](./images/postgres-download.PNG)
 
-**Please choose any version greater than 11**. Select the download link which corresponds with your system and click it.
+**Please choose any version that is 11 or higher**. Select the download link which corresponds with your system and click it.
 
 You'll then be prompted to save the file. Click "Save File".
 
