@@ -15,3 +15,4 @@ RAP is a 12-week program that provides a fundamental understanding of Java and s
 *  **Java Docs** (The official API specification for Java 11): https://docs.oracle.com/javase/11/docs/api/
 *  **Maven Repository** (This provides a repository of dependencies which we can add to our Project Object Models.): https://mvnrepository.com/
 *  **PostgreSQL Docs** (This is PostgreSQL's official documentation.): https://www.postgresql.org/docs/
+* **Hackerrank Contest** (Completely optional but highly encouraged!): https://www.hackerrank.com/rap-code-challenges
