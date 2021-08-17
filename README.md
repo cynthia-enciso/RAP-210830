@@ -9,7 +9,7 @@ RAP is a 12-week program that provides a fundamental understanding of Java and s
 * Every four weeks there is QC or verbal quiz over previously learned concepts
 * There will be one console-based project to complete and present by the end of the program
 
-# Resources
+## Resources
 * [Environment Set-Up](./environment-setup/environment-setup.md)
 *  **Git Cheat Sheet** (This is a GitHub-provided cheat sheet for some simple Git commands.): https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 *  **Java Docs** (The official API specification for Java 11): https://docs.oracle.com/javase/11/docs/api/
