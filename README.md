@@ -1,5 +1,4 @@
-~~change made in local repo~~
-change made in the remote repo
+make change in remote repo
 
 # RAP-210830
 Github repository for Revature Accelerator Program beginning August 30, 2021.
