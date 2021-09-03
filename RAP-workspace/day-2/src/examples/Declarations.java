@@ -20,6 +20,7 @@ public class Declarations {
 		
 		int myVariableName;
 		
-		
+		// list of reserved keywords in Java:
+		// https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
 	}
 }
