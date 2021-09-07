@@ -87,5 +87,12 @@ public class IfStatements {
 			// you can have different data types in your last two operands
 		System.out.println(myValue % 2 == 0 ? "it is even" : false);
 		
+		
+		// another example with single statements
+		boolean myBool = true;
+		
+		if (myBool) {
+			System.out.println("its true!");
+		}
 	}
 }
