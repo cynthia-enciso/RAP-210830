@@ -14,5 +14,6 @@
   * Return statements and types 
   * Parameters
   * Block scope continued
-* Packages
-  * import statements
+* Project Structure
+  * import statements for packages
+  * package declarations
