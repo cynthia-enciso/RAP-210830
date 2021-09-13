@@ -13,7 +13,7 @@
 * Access Modifiers
     - private
     - package private (default access)
-    - protected (more on this in week 4)
+    - protected
     - public
 * Strings
     - String pool 
