@@ -1,7 +1,8 @@
-# create a class in either animals or items folder
+# Instructions
+1. create a class in either animals or items folder
 
-# needs to have 2 properties
+2. needs to have 2 properties
 
-# needs to have one method
+3. needs to have one method
 
-# needs to have the no-args constructor. have no args constructor do something
+4. needs to have the no-args constructor. have no args constructor do something
