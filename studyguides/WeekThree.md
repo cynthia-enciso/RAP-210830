@@ -19,6 +19,7 @@
     - String pool 
     - object notation v. literal notation
     - methods
+    - string formatting
 * [Java Doc](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/package-summary.html)
 
 * Math class
@@ -37,3 +38,7 @@
 
 ## Object Oriented Programming (OOP) Concepts
 * Encapsulation
+
+
+## Miscellaneous
+* pass by value with objects

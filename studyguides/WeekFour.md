@@ -13,6 +13,9 @@
 - Sorting 
     * Bubble sort 
     * Selection sort
+    * Merge Sort
+    * Quick Sort
+    * Recursion (optional)
 
 ## OOP Concepts
 * Inheritance 
@@ -25,11 +28,4 @@
     - hashcode
     - equals
     - finalize 
-
-
-## Miscellaneous
-* Methods
-    - PASS BY VALUE --- REFERENCES
-* Strings
-    - formatting
 
