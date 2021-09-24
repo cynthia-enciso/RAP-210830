@@ -8,7 +8,7 @@ RAP is a 12-week program that provides a fundamental understanding of Java and s
 * Every two weeks there is an exam over previously learned concepts
 * Every four weeks there is QC or verbal quiz over previously learned concepts
 * There will be one console-based project to complete and present by the end of the program
-* There will be one weekly office hour at 3pm ET on Fridays
+* There will be one weekly office hour at 3pm ET on Fridays (same link as RAP classroom)
 
 ## Resources
 * [Environment Set-Up](./environment-setup/environment-setup.md)
