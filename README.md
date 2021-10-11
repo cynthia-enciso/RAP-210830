@@ -17,3 +17,4 @@ RAP is a 12-week program that provides a fundamental understanding of Java and s
 *  **Maven Repository** (This provides a repository of dependencies which we can add to our Project Object Models.): https://mvnrepository.com/
 *  **PostgreSQL Docs** (This is PostgreSQL's official documentation.): https://www.postgresql.org/docs/
 * **Hackerrank Contest** (Completely optional but highly encouraged!): https://www.hackerrank.com/rap-code-challenges-1
+* **Chinook Sample Database** (Useful database to practice your querying! Download the script and use it in a new database. Running the script may take some time as it is a fairly large database): https://github.com/cwoodruff/ChinookDatabase/blob/master/Scripts/Chinook_PostgreSql.sql
