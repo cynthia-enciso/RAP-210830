@@ -14,16 +14,15 @@
     - List
     - Set 
     - Queue
-    - Deque (possibly)
-    - Vector (possibly)
+    - Deque
+    - Vector
     - ArrayList
     - LinkedList
     - Stack 
     - HashSet
-    - TreeSet (possibly)
+    - TreeSet
     - Map
-    - HashMap (possibly)
-    - HashTable (possibly)
+    - HashMap
 * Collection versus Collections
 
 ## Java Structures (related to Collection Framework)
