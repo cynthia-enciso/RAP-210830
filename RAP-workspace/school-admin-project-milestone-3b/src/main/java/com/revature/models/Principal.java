@@ -5,6 +5,11 @@ public class Principal extends Person {
 	private String username;
 	private String password;
 	
+	public Principal(int id, String firstName, String lastName) {
+		super(id, firstName, lastName);
+		// TODO Auto-generated constructor stub
+	}
+	
 	// getters and setters
 	public String getUsername() {
 		return username;

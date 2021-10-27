@@ -11,6 +11,19 @@ public class Student extends Person {
 	private Date graduation;
 	private String type;
 
+	public Student() {
+		super(0, null, null);
+	}
+	
+	// NEW: created constructor
+	public Student(int id, String firstName, String lastName, double gpa, boolean isDoingWell, Date graduation, String type) {
+		super(id, firstName, lastName);
+		this.gpa = gpa;
+		this.isDoingWell = isDoingWell;
+		this.graduation = graduation;
+		this.type = type;
+	}
+	
 	// getters and setters
 	public double getGpa() {
 		return gpa;
@@ -52,5 +65,7 @@ public class Student extends Person {
 		this.type = type;
 	}
 	
-	
+	public String toString() {
+		return this.getFirstName() + " | " + this.getLastName() + " | " + this.gpa + " | " + this.isDoingWell + " | " + this.graduation + " | " + this.type + " | " + this.parents;
+	}
 }

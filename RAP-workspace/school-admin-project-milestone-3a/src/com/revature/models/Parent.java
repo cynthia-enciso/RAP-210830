@@ -1,22 +1,16 @@
 package com.revature.models;
 
-public class Parent {
-	// id
-	private int id;
-	
+public class Parent extends Person {
+
 	// isInNeedOfCall
 	private boolean isInNeedOfCall;
 
+	public Parent(int id, String firstName, String lastName, boolean isInNeedOfCall) {
+		super(id, firstName, lastName);
+		this.isInNeedOfCall = isInNeedOfCall;
+	}
 	
 	// getters and setters
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public boolean isInNeedOfCall() {
 		return isInNeedOfCall;
 	}
