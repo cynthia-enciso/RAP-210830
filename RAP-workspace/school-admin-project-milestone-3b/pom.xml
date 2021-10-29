@@ -16,12 +16,23 @@
 
 	<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 	<dependencies>
+	
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>42.3.0</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+
+
+
 	</dependencies>
 
-<!-- auto-indent: select all lines of code to correct, then do CTRL + I -->
+	<!-- auto-indent: select all lines of code to correct, then do CTRL + I -->
 </project>

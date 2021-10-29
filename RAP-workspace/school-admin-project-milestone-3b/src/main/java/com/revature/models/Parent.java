@@ -19,5 +19,7 @@ public class Parent extends Person {
 		this.isInNeedOfCall = isInNeedOfCall;
 	}
 	
-	
+	public String toString() {
+		return this.getFirstName() + " | " + this.getLastName() + " | " + this.isInNeedOfCall;
+	}
 }

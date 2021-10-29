@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class BetterConnection {
+public class DAOUtility {
 	
 	private static String CONNECTION_USERNAME;
 	private static String CONNECTION_PASSWORD;
