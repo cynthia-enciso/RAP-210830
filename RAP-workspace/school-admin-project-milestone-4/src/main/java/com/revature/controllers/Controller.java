@@ -1,10 +1,16 @@
 package com.revature.controllers;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.revature.views.View;
 
 public class Controller {
+
+	private static final Logger LOG = LogManager.getLogger(Controller.class);
 	
 	public static void init() {
+		LOG.trace("Started init()");
 		// welcome message
 		View.displayWelcome();
 		
@@ -12,6 +18,7 @@ public class Controller {
 		boolean isLoggedIn = View.displayLogin();
 		
 		while (isLoggedIn) {
+			LOG.trace("Inside top menu loop");
 			// view student records
 			View.displayStudentRecords();
 			// have user make decision
@@ -33,10 +40,15 @@ public class Controller {
 				break;
 				default: System.out.println("Bad input!");
 			}
+			
+			// debugging
+			LOG.debug("is user still logged in: " + isLoggedIn);
+			LOG.trace("exit top menu loop");
 		}
 
 		
 		// goodbye message
 		View.displayGoodbye();
+		LOG.trace("Ended init()");
 	}
 }

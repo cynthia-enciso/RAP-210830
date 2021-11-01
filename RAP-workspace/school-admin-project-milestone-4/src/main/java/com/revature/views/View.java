@@ -3,6 +3,9 @@ package com.revature.views;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.revature.daos.StudentRepository;
 import com.revature.daos.StudentRepositoryImpl;
 import com.revature.models.Student;
@@ -13,6 +16,7 @@ public class View {
 	private static final Scanner scanner = new Scanner(System.in);
 	private static StudentRepository studentRepository = new StudentRepositoryImpl();
 	private static StudentService studentService = new StudentServiceImpl();
+	private static final Logger LOG = LogManager.getLogger(View.class);
 	public static void displayWelcome() {
 		System.out.printf("==============================================="
 				+ "\n Welcome to Generic College's Admin Dashboard!\n\n");
