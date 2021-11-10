@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1">
+	<display-name>day-32</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<description></description>
+		<display-name>HomeServlet</display-name>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>examples.HomeServlet</servlet-class>
+
+		<init-param>
+			<param-name>Parameter1</param-name>
+			<param-value>value</param-value>
+		</init-param>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>HomeServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>supportEmail</param-name>
+		<param-value>support@mycompany.com</param-value>
+	</context-param>
+</web-app>
